@@ -12,8 +12,7 @@ function Show ({bread}) {
 
 module.exports = Show
 function Show ({bread}) {
-    // Confirm we are getting our bread data in the terminal.
-    // console.log(bread.name)
+    console.log(bread.name)
       return (
         <Default>
           <h2>Show Page</h2>
